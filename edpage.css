@@ -1,0 +1,357 @@
+@media only screen and ( min-width: 501px ) {
+    html {
+        background-color: #282828;
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: default;
+        overflow: hidden;
+    }
+    .menubtn {
+        display: none;
+    }
+    .mobilearticleholder {
+        display: none;
+    }
+    .bigbox {
+        width: 1100px;
+        height: 1100px;
+        margin-top: -100px;
+        margin-left: -325px;
+        position: absolute;
+        display: inline-block;
+        background-color: #474747;
+        box-shadow: 0px 0px 10px 10px #282828 inset ;
+        border-radius: 25px;
+        transform: rotate(67.5deg);
+        filter: blur(10px);
+    }
+    .logoholder {
+        width: 150px;
+        height: 150px;
+        margin-top: 20px;
+        margin-left: 20px;
+        position: relative;
+        display: inline-flex;
+        background-color: #C7493A;
+        box-shadow: 0px 0px 10px black;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(logosample.png);
+    }
+    .webname {
+        width: 450px;
+        height: 150px;
+        margin-top: 20px;
+        margin-left: 10px;
+        position: relative;
+        display: inline-block;
+        background-color: #C7493A;
+        box-shadow: 0px 0px 10px black;
+        padding: 10px;
+        box-sizing: border-box;
+        vertical-align: top;
+        text-align: center;
+    }
+    .name {
+        margin-top: 15px;
+        font-size: 60px;
+        font-weight: 600;
+        text-decoration: underline;
+        position: relative;
+    }
+    .tagline {
+        font-size: 30px;
+        font-weight: 600;
+        position: relative;
+    }
+    .navbarholder {
+        width: 625px;
+        height: 150px;
+        margin-top: 20px;
+        margin-left: 10px;
+        position: relative;
+        display: inline-block;
+        box-shadow: 0px 0px 10px black;
+        box-sizing: border-box;
+        vertical-align: top;
+    }
+    .navbar1 {
+        width: 625px;
+        height: 65px;
+        position: relative;
+        display: inline-block;
+        background-color: #C7493A;
+        box-shadow: 0px 0px 10px black;
+    }
+    .navbar2 {
+        width: 625px;
+        height: 65px;
+        margin-top: 20px;
+        position: relative;
+        display: inline-block;
+        background-color: #C7493A;
+        box-shadow: 0px 0px 10px black;
+    }
+    .navbarholder a {
+        margin-top: 15px;
+        font-weight: 550;
+        color: black;
+        text-decoration: none;
+        margin-left: 17.5px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        box-sizing: border-box;
+        width: 100px;
+        height: 20px;
+        font-size: 15px;
+        text-align: center;
+        border-bottom: 2px solid black;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .articleholder {
+        width: 1350px;
+        height: 500px;
+        margin-left: 20px;
+        margin-top: 20px;
+        position: relative;
+        display: inline-flex;
+    }
+    .edarticle {
+        width: 1250px; 
+        height: 475px;
+        margin-left: 0px;
+        margin-top: 25px;
+        position: relative;
+        display: inline-block;
+        box-shadow: 0px 0px 10px black;
+        background-color: rgb(255, 255, 255, 0.1);
+    }
+    .edimg {
+        width: 425px;
+        height: 425px;
+        margin-top: 25px;
+        margin-left: 25px;
+        position: relative;
+        display: inline-flex;
+        box-shadow: 0px 0px 10px black;
+        background-color: rgb(255, 255, 255, 0.1);
+    }
+    .writings {
+        width: 755px;
+        height: 425px;
+        margin-top: 25px;
+        margin-left: 15px;
+        color: white;
+        position: relative;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 10px black;
+        background-color: rgb(255, 255, 255, 0.1);
+        overflow-y: scroll;
+    }
+    .edimg {
+        background-image: url(jeepneyphaseout.png);
+        background-position: center;
+        background-size: cover;
+    }
+    .navbarholder a:hover {
+        transition: 0.3s;
+        background-color: black;
+        color: white;
+    }
+    .writings::-webkit-scrollbar {
+        width: 12px;
+    }
+    .writings::-webkit-scrollbar-track {
+        background-color: rgb(60, 60, 60);
+    }
+    .writings::-webkit-scrollbar-thumb {
+        background-color: white;
+        border-radius: 25px;
+        border: 2px solid rgb(60, 60, 60);
+    }
+}
+@media only screen and ( max-width: 500px ) {
+    .test {
+        max-width: 420px;
+        margin: 0 auto;
+    }
+    html {
+        background-color: #282828;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    html, body {
+        overflow: hidden;
+    }
+    .articleholder, .navbarholder {
+        display: none;
+    }
+    .logoholder {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        display: inline-flex;
+        background-color: #C7493A;
+        box-shadow: 0px 0px 10px black;
+        background-image: url(logosample.png);
+        background-position: center;
+        background-size: cover;
+    }
+    .webname {
+        width: 237px;
+        height: 100px;
+        margin-left: 10px;
+        position: relative;
+        display: inline-block;
+        background-color: #C7493A;
+        box-shadow:  0px 0px 10px;
+        box-sizing: border-box;
+        padding-top: 20px;
+        vertical-align: top;
+        text-align: center;
+    }
+    .name {
+        font-size: 35px;
+        font-weight: 600;
+        display: inline-block;
+        position: relative;
+        text-decoration: underline;
+        box-sizing: border-box;
+    }
+    .tagline {
+        font-size: 20px;
+        font-weight: 600;
+        display: inline-block;
+        position: relative;
+    }
+    .menubtn {
+        width: 35px;
+        height: 100px;
+        margin-left: 10px;
+        position: relative;
+        display: inline-block;
+        background-color: #C7493A;
+        box-shadow:  0px 0px 10px black;
+        box-sizing: border-box;
+        vertical-align: top;
+        text-align: center;
+    }
+    .mobnavbar1 {
+        width: 130px;
+        height: 0px;
+        margin-left: -340px;
+        margin-top: 30px;
+        background-color: rgba(188, 184, 184, 0.1);
+        box-shadow: 0px 0px 10px black;
+        position: absolute;
+        display: inline-block;
+        overflow: hidden;
+        transition-duration: 1s;
+        z-index: 2;
+    }
+    .mobnavbar2 {
+        width: 130px;
+        height: 0px;
+        margin-left: -150px;
+        margin-top: 30px;
+        background-color: rgba(188, 184, 184, 0.1);
+        box-shadow: 0px 0px 10px black;
+        position: absolute;
+        display: inline-block;
+        overflow: hidden;
+        transition-duration: 1s;z-index: 2;
+    }
+    .menubtn a {
+        width: 100px;
+        height: 20px;
+        margin-left: 5px;
+        margin-top: 50px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        text-decoration: none;
+        color: black;
+        font-size: 17px;
+        font-weight: 600;
+        border-bottom: 2px solid black;
+        position: relative;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menubtn:hover h1 {
+        color: white;
+    }
+    .menubtn:hover ~ .mobilearticleholder {
+        filter: blur(50px);
+    }
+    .menubtn:hover > .mobnavbar1 {
+        height: 500px;
+    }
+    .menubtn:hover > .mobnavbar2 {
+        height: 500px;
+    }
+    .menubtn a:hover {
+        background-color: black;
+        color: white;
+        transition-duration: 0.5s;
+    }
+    .mobilearticleholder {
+        width: 400px;
+        height: 700px;
+        position: relative;
+        display: inline-block;
+        background-color: rgb(255, 255, 255, 0.1);
+        box-shadow: 0px 0px 10px black;
+        overflow: scroll;
+        z-index: 1;
+    }
+    .mobilearticleholder > div {
+        width: 370px;
+        height: 670px;
+        margin-top: 15px;
+        margin-left: 15px;
+        position: relative;
+        display: inline-block;
+        background-color: rgb(255, 255, 255, 0.1);
+        box-shadow: 0px 0px 10px black;
+        z-index: 1;
+    }
+    .mobileedimg {
+        width: 345px;
+        height: 225px;
+        margin-top: 10px;
+        margin-left: 10px;
+        position: relative;
+        display: inline-block;
+        background-color: rgb(255, 255, 255, 0.1);
+        box-shadow: 0px 0px 10px black;
+        z-index: 1;
+    }
+    .mobilewritings {
+        width: 345px;
+        height: 410px;
+        margin-top: 10px;
+        margin-left: 10px;
+        color: white;
+        position: relative;
+        display: inline-block;
+        background-color: rgb(255, 255, 255, 0.1);
+        box-shadow: 0px 0px 10px black;
+        z-index: 1;
+        overflow: scroll;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+    .mobileedimg {
+        background-image: url(jeepneyphaseout.png);
+        background-position: center;
+        background-size: center;
+    }
+}
