@@ -256,7 +256,7 @@
         margin: 0 auto;
     }
     html {
-        background-color: #282828;
+        background-color: #6096BA;
         font-family: Arial, Helvetica, sans-serif;
     }
     html, body {
@@ -270,7 +270,7 @@
         height: 100px;
         position: relative;
         display: inline-flex;
-        background-color: #C7493A;
+        background-color: #E7ECEF;
         box-shadow: 0px 0px 10px black;
         background-image: url(logosample.png);
         background-position: center;
@@ -282,7 +282,7 @@
         margin-left: 10px;
         position: relative;
         display: inline-block;
-        background-color: #C7493A;
+        background-color: #E7ECEF;
         box-shadow:  0px 0px 10px;
         box-sizing: border-box;
         padding-top: 20px;
@@ -309,7 +309,7 @@
         margin-left: 10px;
         position: relative;
         display: inline-block;
-        background-color: #C7493A;
+        background-color: #E7ECEF;
         box-shadow:  0px 0px 10px black;
         box-sizing: border-box;
         vertical-align: top;
